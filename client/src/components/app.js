@@ -10,11 +10,11 @@ const App = () => (
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/get-data">Get Data</Link>
+        <Link to="/mickey-mouse">Get Data</Link>
       </li>
     </ul>
     <Route exact path="/" component={Home} />
-    <Route path="/get-data" component={GetData} />
+    <Route path="/mickey-mouse" component={GetData} />
   </div>
 );
 
